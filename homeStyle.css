@@ -1,0 +1,163 @@
+
+/*
+div{
+
+
+    
+    border: 1px solid rgb(249, 249, 249);
+  padding: 10px;
+    margin: 5px;
+}
+
+#navbar{
+    background-color: rgb(7, 7, 113);
+    padding: 15px;
+    font-size: large; 
+}
+*/
+.porfolio{
+    background-color: rgb(6, 1, 44);
+    padding: 1%; 
+    border-radius: 15px;
+   
+   margin: 1% ; 
+    text-align: center;
+    opacity: 0.8;
+}
+
+.item:hover{
+    background-color: rgb(58, 58, 238);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .item1:hover{
+    background-color: rgb(35, 203, 41);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+#image img{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+  
+}
+
+#image{
+ margin-right: 50px;
+ text-align: left;
+ text-align: center;
+}
+
+.name{
+   text-align: center;
+   background-color: rgb(3, 3, 61); 
+   color: white;
+}
+   .name:hover{
+    background-color: rgb(35, 45, 75);
+   /* font-size: 17px; */
+    transition: background-color 2s,transform 3s; 
+    transform: scale(1.05);  
+}
+
+    .name,#image{
+        display: inline-block
+        vertical-align: middle;
+    }
+
+    .nav {
+        margin-bottom: 1px;
+       font-size: larger;
+       border-bottom: 10px;
+    }
+.nav a{
+    color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+
+.about{
+   background-color: lightblue;
+    font-style:italic;
+    text-align: left;
+    padding: 5px;
+    transition: background-color 2s,transform 3s; 
+
+}
+.about:hover{
+    background-color: rgb(195, 228, 178);
+   /* font-size: 17px; */
+    transition: background-color 2s,transform 3s; 
+    transform: scale(1.05);  
+}
+.program{
+    background-color: rgb(212, 135, 250)
+    font-family: 'Lucida Sans';
+    text-align: left;
+    padding: 5px;
+    transition: background-color 2s,transform 3s;   
+}
+
+.program:hover{
+    background-color: rgb(0, 255, 145);
+    transform: scale(1.05) /*rotate(15deg)*/;
+}
+
+.services{
+    background-color: rgb(0, 217, 255);
+    text-align: left;
+    padding: 5px;
+    transition: background-color 2s, transform 2s; 
+}
+
+.services:hover{
+    background-color: rgb(123, 168, 38);
+    transform: scale(1.05);
+}
+
+.list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-list{
+
+    color: rgb(10, 10, 134);
+}
+
+.indent{
+
+    text-indent: 20px;
+}
+
+.shadow{
+
+    text-shadow: 3px 3px lightgrey;
+    text-align: center;
+    padding: 10px;
+  
+    
+}
+
+.span{
+    font-weight: bolder;
+    color: darkblue;
+    text-transform: capitalize;
+    
+}
+
+
+#fl{
+    float:left;
+    height:800px;
+    width: 240px;
+    border: solid darkblue;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 7px 9px 10px;
+    margin: 5px;
+    margin-top:     25px;
+   
+}
+#myBtn {display: none;}
