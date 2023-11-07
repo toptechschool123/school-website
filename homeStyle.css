@@ -85,6 +85,9 @@ div{
     text-align: left;
     padding: 5px;
     transition: background-color 2s,transform 3s; 
+   
+    height: 300px;
+    width: 250px;
 
 }
 .about:hover{
@@ -130,6 +133,7 @@ div{
 .indent{
 
     text-indent: 20px;
+   
 }
 
 .shadow{
@@ -151,13 +155,35 @@ div{
 
 #fl{
     float:left;
-    height:800px;
-    width: 240px;
+    height:500px;
+    width: 420px;
     border: solid darkblue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 7px 9px 10px;
     margin: 5px;
     margin-top:     25px;
-   
+    overflow:scroll;
+    text-align: justify;
+    word-wrap: normal;
 }
-#myBtn {display: none;}
+
+.footer:hover{
+    float: left;
+    padding: 5px;
+
+}
+
+.iframe{
+
+    text-align: left ;
+    background-color: aquamarine;
+    color: red;
+    float: left;
+}
+
+.fileLink{
+    padding: 12px;
+    background-color: red;
+    border: 5px;
+    padding-right: 100px;
+}
